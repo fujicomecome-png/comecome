@@ -1,1 +1,12 @@
-
+{
+  "name": "MoveTurnCommand",
+  "description": "チャットコマンド「w」で移動・向き変更を行う。表示ブロックは3つのみ。",
+  "dependencies": {
+    "minecraft": "*"
+  },
+  "files": [
+    "main.ts",
+    "main.blocks",
+    "toolbox.xml"
+  ]
+}
