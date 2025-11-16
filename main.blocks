@@ -2,16 +2,16 @@
   <block type="on_chat" x="10" y="10">
     <field name="CMD">w</field>
     <statement name="HANDLER">
-      <block type="player_move">
+      <block type="agent_move">
         <field name="direction">FORWARD</field>
-        <value name="distance">
+        <value name="count">
           <shadow type="math_number">
             <field name="NUM">1</field>
           </shadow>
         </value>
         <next>
-          <block type="player_turn">
-            <field name="direction">Left</field>
+          <block type="agent_turn">
+            <field name="direction">LEFT</field>
           </block>
         </next>
       </block>
