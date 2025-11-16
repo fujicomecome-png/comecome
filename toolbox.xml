@@ -1,1 +1,9 @@
-
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <category name="プレイヤー" colour="#5CA65C">
+    <block type="on_chat">
+      <field name="CMD">w</field>
+    </block>
+    <block type="player_move"></block>
+    <block type="player_turn"></block>
+  </category>
+</xml>
