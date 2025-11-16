@@ -1,6 +1,6 @@
 {
-  "name": "MoveTurnCommand",
-  "description": "チャットコマンド「w」で移動・向き変更を行う。表示ブロックは3つのみ。",
+  "name": "AgentMoveTurnCommand",
+  "description": "チャットコマンド「w」でエージェントを動かし、向きを変える。表示ブロックは3つのみ。",
   "dependencies": {
     "minecraft": "*"
   },
