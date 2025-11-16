@@ -1,1 +1,20 @@
-
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="on_chat" x="10" y="10">
+    <field name="CMD">w</field>
+    <statement name="HANDLER">
+      <block type="player_move">
+        <field name="direction">FORWARD</field>
+        <value name="distance">
+          <shadow type="math_number">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="player_turn">
+            <field name="direction">Left</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
